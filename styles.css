@@ -101,7 +101,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #059669 0%, #0d9488 100%);
     color: white;
     position: relative;
     overflow: hidden;
@@ -221,29 +221,29 @@ section {
     color: #1f2937;
 }
 
-/* About Section */
-.about {
+/* Research Section */
+.research {
     background: #f9fafb;
 }
 
-.about-content {
+.research-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 4rem;
     align-items: start;
 }
 
-.about-text p {
+.research-text p {
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
     color: #4b5563;
 }
 
-.skills {
+.research-areas {
     margin-top: 2rem;
 }
 
-.skills h3 {
+.research-areas h3 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
     color: #1f2937;
@@ -256,7 +256,7 @@ section {
 }
 
 .skill-tag {
-    background: #6366f1;
+    background: #059669;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -264,7 +264,7 @@ section {
     font-weight: 500;
 }
 
-.about-stats {
+.research-stats {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -492,11 +492,11 @@ section {
         font-size: 4rem;
     }
 
-    .about-content {
+    .research-content {
         grid-template-columns: 1fr;
     }
 
-    .about-stats {
+    .research-stats {
         flex-direction: row;
         justify-content: space-around;
     }
